@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640">
+  <rect width="1280" height="640" fill="#101418"/>
+  <!-- motif: lines of text with flagged "tell" segments, arrow, then clean lines -->
+  <g stroke-linecap="round" stroke-width="10">
+    <line x1="720" y1="470" x2="780" y2="470" stroke="#5b6470"/>
+    <line x1="796" y1="470" x2="850" y2="470" stroke="#c39bf5"/>
+    <line x1="866" y1="470" x2="900" y2="470" stroke="#5b6470"/>
+    <line x1="720" y1="505" x2="750" y2="505" stroke="#c39bf5"/>
+    <line x1="766" y1="505" x2="900" y2="505" stroke="#5b6470"/>
+    <line x1="720" y1="540" x2="830" y2="540" stroke="#5b6470"/>
+    <line x1="846" y1="540" x2="880" y2="540" stroke="#c39bf5"/>
+  </g>
+  <g stroke="#c39bf5" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="935" y1="505" x2="1000" y2="505"/>
+    <polyline points="985,490 1002,505 985,520"/>
+  </g>
+  <g stroke="#f4f1ec" stroke-width="10" stroke-linecap="round">
+    <line x1="1040" y1="470" x2="1180" y2="470"/>
+    <line x1="1040" y1="505" x2="1150" y2="505"/>
+    <line x1="1040" y1="540" x2="1170" y2="540"/>
+  </g>
+  <text x="80" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="76" font-weight="800" fill="#f4f1ec">Humanizer</text>
+  <text x="80" y="290" font-family="system-ui, -apple-system, sans-serif" font-size="76" font-weight="800" fill="#f4f1ec">Strip the AI tells</text>
+  <rect x="80" y="330" width="120" height="8" fill="#c39bf5"/>
+  <text x="80" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#b8b2a8">Build · a Claude skill that edits out AI habits</text>
+</svg>
